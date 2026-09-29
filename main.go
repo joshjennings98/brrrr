@@ -1445,7 +1445,7 @@ func (m model) View() tea.View {
 		}
 	}
 
-	help := "j k move · [ ] prev/next file · / search · n p match · a approve · s submit · q quit"
+	help := "j k move · [ ] prev/next file · c comment · x remove · r refresh · / search · n p match · a approve · s submit · q quit"
 	if m.submissionErr {
 		help = "Check GitHub: submission may have succeeded. ctrl+r unlocks retry · q quit"
 	}

@@ -111,3 +111,8 @@ go test -run '^$' -bench 'Benchmark(LongLineScroll|RepeatedAnchorRefresh|LoadCom
 
 Tests use an in-memory HTTP transport through the real go-gh SDK and never submit
 to GitHub.
+
+## TODO
+
+* Support multiple line selection
+* Add suggestions (will need multiple lines for the most part) via keybind in edit view

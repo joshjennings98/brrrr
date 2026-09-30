@@ -116,3 +116,5 @@ to GitHub.
 
 * Support multiple line selection
 * Add suggestions (will need multiple lines for the most part) via keybind in edit view
+* Cache to increase subsequent loads of the same PR
+* Split into more sensible file structure
